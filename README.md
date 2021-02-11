@@ -14,6 +14,7 @@ This will serve as the repository for source code.
 -	Run spark-jsl_wip to have other options
 -	Look at cancer paper for how to prepare location data
 -	Infer disease categories from procedures
+- Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
 
 ### Visualizations
 -	Distribution of financial variables by disease category
