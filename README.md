@@ -28,6 +28,7 @@ This will serve as the repository for source code.
 
 ### Additional ideas – data preparation
 -	Add procedures
+- Accuracy of keras-mesh classifier?
 
 ### Additional ideas – analysis
 -	Gender analysis of donor names to see who gives more frequently or more dollars
