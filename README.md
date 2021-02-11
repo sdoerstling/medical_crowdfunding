@@ -7,7 +7,6 @@ This will serve as the repository for source code.
 ### Organization
 -	Code on computer
 -	Data on computer
--	Colab notebooks
 -	Google drive data
 
 ### Data preparation and cleaning
