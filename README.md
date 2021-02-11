@@ -20,6 +20,8 @@ This will serve as the repository for source code.
 -	Histogram of donation amount
 -	Histogram of average donation amount
 -	Histogram of number of donations
+- relationship between time and social media shares
+- relationship between time and donations
 
 ### Analysis
 -	Poisson regression of donation counts
