@@ -32,3 +32,10 @@ This will serve as the repository for source code.
 -	Gender analysis of donor names to see who gives more frequently or more dollars
 -	Impact of political affiliation of zipcode
 
+
+
+
+
+# Instructions
+
+- Place lid.176.bin fasttext model in data/fasttext_models
