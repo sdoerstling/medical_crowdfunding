@@ -5,8 +5,6 @@ This will serve as the repository for source code.
 ## To dos:
 
 ### Organization
--	Code on computer
--	Data on computer
 
 ### Data preparation and cleaning
 -	Impact of adding stopwords to spark-jsl-ccsr on classification accuracy
