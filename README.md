@@ -44,6 +44,8 @@ This will serve as the repository for source code.
 
 
 
+# Notes
+- shares were scraped on February 9, 2021
 
 
 # Instructions
