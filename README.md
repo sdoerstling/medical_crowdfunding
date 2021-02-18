@@ -8,9 +8,7 @@ This will serve as the repository for source code.
 
 ### Data preparation and cleaning
 
-- check if feed_chunk json files does not include any data for final analysis
-  - check in analysis notebook
-  - if there were some left out, need to re-run 
+- run algorithm on campaigns that did not make it in the first time
 -	Impact of adding stopwords to spark-jsl-ccsr on classification accuracy
 -	Infer disease categories from procedures or updates
   -	this adds almost 3k campaigns back in the mix 
@@ -26,15 +24,10 @@ Flow would be:
 5. if so, then see if that second pass impacts classification performance
 
 
-
-- Retrace steps for manual revisions to CCSR
-  - for documentation in methods
-  - and also because there are some missing sections to add to existing categories
-  - start this from scratch because current version seems to leave out a lot (e.g. cerebral amyloid angiopathy)
-  - then re-test classification metrics from manual review to make sure we are kosher
-
 - quantify number of campaigns changed by winsorization 
 - Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
+
+- analyze missing data for number of shares
 
 
 ### Visualizations
@@ -68,3 +61,19 @@ Flow would be:
 # Exclusions
 - 92962 unique urls
 - 92118 with available location data that aligned with census data
+
+#  Retrace steps for manual revisions to CCSR
+- for documentation in methods
+- and also because there are some missing sections to add to existing categories
+- start this from scratch because current version seems to leave out a lot (e.g. cerebral amyloid angiopathy)
+- then re-test classification metrics from manual review to make sure we are kosher
+
+
+
+- DXCCSR_v2021-1.CSV file was read in and cleaned of apostrophes. This maps ICD10 codes to categories
+- DXCCSR-Reference-File-v2021-1.xlsx, sheet=CCSR_Categories was arranged into a hierarchy of disease categories inspired by groups provided in sheet=Naming_Conventions. Changes from the CCS-provided categories included recategorizing congenital conditions into the system impacted by the congenital anomaly.
+- this disease hierarhcy was then merged with the ICD10-category mapping using the default inpatient CCSR category such that each ICD10 code could be mapped to an aggregated disease category
+
+
+
+
