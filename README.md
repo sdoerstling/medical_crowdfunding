@@ -11,9 +11,7 @@ This will serve as the repository for source code.
 - check if feed_chunk json files does not include any data for final analysis
   - check in analysis notebook
   - if there were some left out, need to re-run 
-
 -	Impact of adding stopwords to spark-jsl-ccsr on classification accuracy
-
 -	Infer disease categories from procedures or updates
   -	this adds almost 3k campaigns back in the mix 
   - after doing this, seems to slightly improve classification accuracy and F1
@@ -27,7 +25,7 @@ Flow would be:
 4. then evaluate if more campaigns have an identified disease category
 5. if so, then see if that second pass impacts classification performance
 
-- Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
+
 
 - Retrace steps for manual revisions to CCSR
   - for documentation in methods
@@ -35,8 +33,8 @@ Flow would be:
   - start this from scratch because current version seems to leave out a lot (e.g. cerebral amyloid angiopathy)
   - then re-test classification metrics from manual review to make sure we are kosher
 
-  
 - quantify number of campaigns changed by winsorization 
+- Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
 
 
 ### Visualizations
