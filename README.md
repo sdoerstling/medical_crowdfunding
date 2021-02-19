@@ -8,11 +8,14 @@ This will serve as the repository for source code.
 
 ### Data preparation and cleaning
 
-- if code maps to personal history of (Z8)... look in top 3 codes to see if there is an alternative
+- New classification accuracy 
+   - with cleaned text
+   - with procedure-based additions
+   - potential recoding of campaigns with personal history (Z8) to others in top 3
+   - +/- removing stopwords 
+
 
 - run algorithm on campaigns that did not make it in the first time
-
--	Impact of adding stopwords to spark-jsl-ccsr on classification accuracy
 
 
 -	Infer disease categories from procedures or updates
