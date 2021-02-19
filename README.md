@@ -8,26 +8,25 @@ This will serve as the repository for source code.
 
 ### Data preparation and cleaning
 
+- if code maps to personal history of (Z8)... look in top 3 codes to see if there is an alternative
+
 - run algorithm on campaigns that did not make it in the first time
+
 -	Impact of adding stopwords to spark-jsl-ccsr on classification accuracy
+
+
 -	Infer disease categories from procedures or updates
   -	this adds almost 3k campaigns back in the mix 
   - after doing this, seems to slightly improve classification accuracy and F1
   - should definitely run spark-jsl_wip to have other options, this will likely improve sample size and performance
-  - a potential extension could be taking all identified entities, and then use these as a word search based approach
+   - a potential extension could be taking all identified entities, and then use these as a word search based approach
+      - Flow would be:
+        1. spark-jsl on all documents
+        2. gather all mapped terms, clean, lowercase, dictionary to mapped category (may be some terms mapped to multiple categories)
+        3. word search over all documents
+        4. then evaluate if more campaigns have an identified disease category
+        5. if so, then see if that second pass impacts classification performance
 
-Flow would be:
-1. spark-jsl on all documents
-2. gather all mapped terms, clean, lowercase, dictionary to mapped category (may be some terms mapped to multiple categories)
-3. word search over all documents
-4. then evaluate if more campaigns have an identified disease category
-5. if so, then see if that second pass impacts classification performance
-
-
-- quantify number of campaigns changed by winsorization 
-- Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
-
-- analyze missing data for number of shares
 
 
 ### Visualizations
@@ -36,6 +35,9 @@ Flow would be:
 - how long does it take for campaigns to reach 95% of their donations? 50% of goal amount?
 
 ### Analysis
+- quantify number of campaigns changed by winsorization 
+- Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
+- analyze missing data for number of shares
 
 ### Additional ideas – data preparation
 -	Add procedures
@@ -63,12 +65,7 @@ Flow would be:
 - 92118 with available location data that aligned with census data
 
 #  Retrace steps for manual revisions to CCSR
-- for documentation in methods
-- and also because there are some missing sections to add to existing categories
-- start this from scratch because current version seems to leave out a lot (e.g. cerebral amyloid angiopathy)
 - then re-test classification metrics from manual review to make sure we are kosher
-
-
 
 - DXCCSR_v2021-1.CSV file was read in and cleaned of apostrophes. This maps ICD10 codes to categories
 - DXCCSR-Reference-File-v2021-1.xlsx, sheet=CCSR_Categories was arranged into a hierarchy of disease categories inspired by groups provided in sheet=Naming_Conventions. Changes from the CCS-provided categories included recategorizing congenital conditions into the system impacted by the congenital anomaly.
