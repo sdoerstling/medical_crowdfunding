@@ -15,6 +15,9 @@ This will serve as the repository for source code.
 
 - scrape other shares data that were not originally included
 
+- run (additional) regressions with conditions
+
+- co-occurrence matrix
 
 - run algorithm on campaigns that did not make it in the first time
 
