@@ -9,21 +9,9 @@ This will serve as the repository for source code.
 ### Data preparation and cleaning
 
 
-- New classification script
-   - looks really bad
-   - counts are much lower than previously
-   - possibly due to new disease hierarchy file
-   - possible due to missing value handling
-   - need to double check that new disease hierarchy file matches old one??
-   - hopefully missing value handling is not to blame
+- add neighborhood deprivation index breakdown by census region
 
 
-
-- New classification accuracy 
-   - with cleaned text
-   - with procedure-based additions
-   - potential recoding of campaigns with personal history (Z8) to others in top 3
-   - +/- removing stopwords 
 
 
 - run algorithm on campaigns that did not make it in the first time
