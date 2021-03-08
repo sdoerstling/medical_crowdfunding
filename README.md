@@ -11,13 +11,17 @@ This will serve as the repository for source code.
 
 - add neighborhood deprivation index breakdown by census region (and also disease categories)
 
+
+- ^ double check about getting census variables at the zip code level
+
+
 - also look at census variables by census region
 
 - scrape other shares data that were not originally included
 
 - run (additional) regressions with conditions
 
-- co-occurrence matrix
+- co-occurrence matrix (compare across high-earning, low-earning, deprived counties, region)
 
 - run algorithm on campaigns that did not make it in the first time
 
