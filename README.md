@@ -15,6 +15,7 @@ This will serve as the repository for source code.
 - run (additional) regressions with conditions
 - co-occurrence matrix (compare across high-earning, low-earning, deprived counties, region)
 - run algorithm on campaigns that did not make it in the first time
+
 - run tweedie regression with finding optimal p parameter in R
 
 
