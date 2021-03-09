@@ -16,6 +16,8 @@ This will serve as the repository for source code.
 - co-occurrence matrix (compare across high-earning, low-earning, deprived counties, region)
 - run algorithm on campaigns that did not make it in the first time
 
+- rank analysis
+
 - run tweedie regression with finding optimal p parameter in R
 
 
