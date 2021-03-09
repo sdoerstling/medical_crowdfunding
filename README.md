@@ -8,22 +8,15 @@ This will serve as the repository for source code.
 
 ### Data preparation and cleaning
 
-
 - add neighborhood deprivation index breakdown by census region (and also disease categories)
-
-
-- ^ double check about getting census variables at the zip code level
-
-
+- ^ try to get census data again for zip code tabulation area (https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)
 - also look at census variables by census region
-
 - scrape other shares data that were not originally included
-
 - run (additional) regressions with conditions
-
 - co-occurrence matrix (compare across high-earning, low-earning, deprived counties, region)
-
 - run algorithm on campaigns that did not make it in the first time
+- run tweedie regression with finding optimal p parameter in R
+
 
 
 -	Infer disease categories from procedures or updates
@@ -39,6 +32,11 @@ This will serve as the repository for source code.
         5. if so, then see if that second pass impacts classification performance
 
 
+### Tweedie regression
+- https://stackoverflow.com/questions/63726276/statsmodel-tweedie-loglike-returning-nans
+- https://towardsdatascience.com/insurance-risk-pricing-tweedie-approach-1d71207268fc
+- Dunn and Smyth (2018), Generalized Linear Models With Examples in R
+- https://stats.stackexchange.com/questions/123598/tweedie-p-parameter-interpretation
 
 ### Visualizations
 - relationship between time and social media shares
@@ -51,7 +49,6 @@ This will serve as the repository for source code.
 - analyze missing data for number of shares
 
 ### Additional ideas – data preparation
--	Add procedures
 - Accuracy of keras-mesh classifier?
 
 ### Additional ideas – analysis
@@ -76,7 +73,6 @@ This will serve as the repository for source code.
 - 92118 with available location data that aligned with census data
 
 #  Retrace steps for manual revisions to CCSR
-- then re-test classification metrics from manual review to make sure we are kosher
 
 - DXCCSR_v2021-1.CSV file was read in and cleaned of apostrophes. This maps ICD10 codes to categories
 - DXCCSR-Reference-File-v2021-1.xlsx, sheet=CCSR_Categories was arranged into a hierarchy of disease categories inspired by groups provided in sheet=Naming_Conventions. Changes from the CCS-provided categories included recategorizing congenital conditions into the system impacted by the congenital anomaly.
