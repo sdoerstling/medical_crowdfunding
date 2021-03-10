@@ -9,7 +9,6 @@ This will serve as the repository for source code.
 ### Data preparation and cleaning
 
 - add neighborhood deprivation index breakdown by census region (and also disease categories)
-- ^ try to get census data again for zip code tabulation area (https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)
 - also look at census variables by census region
 - scrape other shares data that were not originally included
 - run (additional) regressions with conditions
@@ -40,6 +39,10 @@ This will serve as the repository for source code.
 - https://towardsdatascience.com/insurance-risk-pricing-tweedie-approach-1d71207268fc
 - Dunn and Smyth (2018), Generalized Linear Models With Examples in R
 - https://stats.stackexchange.com/questions/123598/tweedie-p-parameter-interpretation
+
+### GLM regression coefficient interpretation
+- https://stats.stackexchange.com/questions/247309/interpretting-coefficients-of-a-glm-as-multiplicative
+
 
 ### Visualizations
 - relationship between time and social media shares
@@ -76,11 +79,13 @@ This will serve as the repository for source code.
 - 92118 with available location data that aligned with census data
 
 #  Retrace steps for manual revisions to CCSR
-
 - DXCCSR_v2021-1.CSV file was read in and cleaned of apostrophes. This maps ICD10 codes to categories
 - DXCCSR-Reference-File-v2021-1.xlsx, sheet=CCSR_Categories was arranged into a hierarchy of disease categories inspired by groups provided in sheet=Naming_Conventions. Changes from the CCS-provided categories included recategorizing congenital conditions into the system impacted by the congenital anomaly.
 - this disease hierarhcy was then merged with the ICD10-category mapping using the default inpatient CCSR category such that each ICD10 code could be mapped to an aggregated disease category
 
-
+# Notes on census
+- Our data has zip codes
+- However, using the same zip code listed by the campaign organizer for the patient assumes they live in the same zip code, which is a relatively small geographric area.
+- Therefore, we generalize location to the county-level.
 
 
