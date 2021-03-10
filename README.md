@@ -15,13 +15,11 @@ This will serve as the repository for source code.
 - co-occurrence matrix (compare across high-earning, low-earning, deprived counties, region)
 - run algorithm on campaigns that did not make it in the first time
 
-- rank analysis
-
-- run tweedie regression with finding optimal p parameter in R
 
 
 
--	Infer disease categories from procedures or updates
+
+-	Infer disease categories from procedures or update
   -	this adds almost 3k campaigns back in the mix 
   - after doing this, seems to slightly improve classification accuracy and F1
   - should definitely run spark-jsl_wip to have other options, this will likely improve sample size and performance
@@ -42,6 +40,7 @@ This will serve as the repository for source code.
 
 ### GLM regression coefficient interpretation
 - https://stats.stackexchange.com/questions/247309/interpretting-coefficients-of-a-glm-as-multiplicative
+- https://stats.stackexchange.com/questions/96972/how-to-interpret-parameters-in-glm-with-family-gamma
 
 
 ### Visualizations
@@ -50,7 +49,6 @@ This will serve as the repository for source code.
 - how long does it take for campaigns to reach 95% of their donations? 50% of goal amount?
 
 ### Analysis
-- quantify number of campaigns changed by winsorization 
 - Need to figure out final inclusion/exclusion criteria, missing data percentage, etc.
 - analyze missing data for number of shares
 
