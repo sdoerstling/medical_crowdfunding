@@ -17,6 +17,8 @@ This will serve as the repository for source code.
 
 
 
+- there is missing donation data for campaigns with zero donations plus a few more; will need to quantify this for each regression and plots.
+
 
 
 -	Infer disease categories from procedures or update
