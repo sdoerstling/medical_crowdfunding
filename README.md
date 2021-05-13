@@ -30,8 +30,8 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 
 File | Description
 --- | ---
-<img width=200> `00-map_category_id.ipynb`| Scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code (used during scraping).
-<img width=200> `01-prepare_sitemaps.ipynb`| Aggregates and randomizes sitemap data.
+`00-map_category_id.ipynb` <img width=200> | Scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code (used during scraping).
+ `01-prepare_sitemaps.ipynb` <img width=200>| Aggregates and randomizes sitemap data.
 
 ----
 
