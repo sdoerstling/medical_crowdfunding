@@ -15,7 +15,7 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 
 ### 3. Language identification model
 - Download Fasttext language identification model `lid.176.bin` [here](https://fasttext.cc/docs/en/language-identification.html)
-- Place lid.176.bin fasttext model in [data/fasttext_models](data/fasttext_models)
+- Place `lid.176.bin` fasttext model in [data/fasttext_models](data/fasttext_models)
 
 ----
 
