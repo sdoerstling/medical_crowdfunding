@@ -3,8 +3,15 @@
 This repository contains source code for Doerstling et al (2021) *Validation of a disease identification algorithm on medical crowdfunding campaigns*.
 
 ----
+## Overview of directories
 
-## Data collection
+`code/` contains jupyter notebooks and python scripts
+`data/` contains raw and processed.
+`src/` contains utilities (e.g. dictionaries) imported by analysis scripts
+
+----
+
+## Data aggregation
 
 ### 1. GoFundMe Sitemap data 
 
@@ -23,8 +30,7 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 
 File | Description
 --- | ---
-`00-map_category_id.ipynb` | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
-[00-map_category_id.ipynb](00-map_category_id.ipynb) | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
+`00-map_category_id.ipynb` <img width=200> | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
 
 ----
 
