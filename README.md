@@ -17,7 +17,7 @@ Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
 
 ### 1. GoFundMe Sitemap data 
 - Go to www.gofundeme.com/sitemap.xml
-- Each sitemap file can be iteratively downloaded at the following url: https://www.gofundme.com/sitemaps/www/sitemap<N>.xml.gz where N is a number from 1 to K
+- Each sitemap file can be iteratively downloaded at the following url: https://www.gofundme.com/sitemaps/www/sitemapN.xml.gz where N is a number from 1 to K
 - Download all available files by incrementing N by 1 until the url returns an error
 - Place files in [data/sitemaps/sitemaps_raw](data/sitemaps/sitemaps_raw)
 
