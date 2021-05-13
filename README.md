@@ -31,7 +31,8 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 File | Description
 --- | ---
 `00-map_category_id.ipynb` <img width=200> | Scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code (used during scraping).
- `01-prepare_sitemaps.ipynb` <img width=200>| Aggregates and randomizes sitemap data.
+`01-prepare_sitemaps.ipynb` <img width=200>| Aggregates and randomizes sitemap data. Export lists of urls in batches of 1000 for the purposes of our scraping procedure, but this can be adjusted for your system's limitations or capacity.
+`02-run_scrape.sh` <img width=200>| Iteratively runs `03-scrape.py` on batches of sitemap data. The number of sitemap batches in the loop can be specified in the script.
 
 ----
 
