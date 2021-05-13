@@ -14,7 +14,7 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 - Unzip and place contents in [data/ccsr](data/ccsr)
 
 ### 3. Language identification model
-- Download Fasttext language identification model lid.176.bin [here](https://fasttext.cc/docs/en/language-identification.html)
+- Download Fasttext language identification model `lid.176.bin` [here](https://fasttext.cc/docs/en/language-identification.html)
 - Place lid.176.bin fasttext model in [data/fasttext_models](data/fasttext_models)
 
 ----
@@ -23,7 +23,7 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 
 File | Description
 --- | ---
-[00-map_category_id.ipynb](00-map_category_id.ipynb) | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
+`00-map_category_id.ipynb` | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
 [00-map_category_id.ipynb](00-map_category_id.ipynb) | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
 
 ----
