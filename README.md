@@ -44,7 +44,7 @@ File | Description
 `06-clean_data.ipynb` <img width=300/> | Cleans data.
 `07-disease_categories.ipynb` <img width=300/> | Modifies CCSR data to create disease categories for ICD-10-CM codes.
 `08-Spark-JSL-CCSR.ipynb` <img width=300/> | Executes named entity recognition and entity resolution using models from Spark NLP for Healthcare (John Snow Labs). Requires a [license or demo](https://www.johnsnowlabs.com/spark-nlp-health/). Recommend running on Google Colab.
-`09-classification_evaluation.ipynb` <img width=500/> | Calculates classification performance metrics.
+`09-classification_evaluation.ipynb` <img width=600/> | Calculates classification performance metrics.
 
 
 ----
