@@ -5,9 +5,9 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 ----
 ## Overview of directories
 
-`code/` contains jupyter notebooks and python scripts
-`data/` contains raw and processed.
-`src/` contains utilities (e.g. dictionaries) imported by analysis scripts
+- `code/` contains jupyter notebooks and python scripts
+- `data/` contains raw and processed.
+- `src/` contains utilities (e.g. dictionaries) imported by analysis scripts
 
 ----
 
@@ -30,9 +30,12 @@ This repository contains source code for Doerstling et al (2021) *Validation of 
 
 File | Description
 --- | ---
-`00-map_category_id.ipynb` <img width=200> | This scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code.
+<img width=200> `00-map_category_id.ipynb`| Scrapes example campaigns from each category in GoFundMe and identifies each category's numeric code (used during scraping).
+<img width=200> `01-prepare_sitemaps.ipynb`| Aggregates and randomizes sitemap data.
 
 ----
 
 ## Notes and disclaimers
-- 
+- Data collection will vary
+- Consider using a proxy, be respectful to server with scraping
+- Consult your institutional review board
