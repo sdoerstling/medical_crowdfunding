@@ -45,6 +45,6 @@ File | Description
 ----
 
 ## Notes and disclaimers
-- Data collection will vary
-- Consider using a proxy, be respectful to server with scraping
-- Consult your institutional review board
+- Because campaigns are constantly being added to/removed from GoFundMe, variation in scraped samples is expected.
+- Adhere to best practices for web scraping (do not overwhelm servers, limit concurrent requests from a single IP address, consider a proxy, etc). 
+- Consult your institutional review board before collecting data with the methods described above.
