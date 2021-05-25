@@ -7,9 +7,9 @@ Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
 ----
 ## Overview of directories
 
-- `code/` contains jupyter notebooks and python scripts
-- `data/` contains raw and processed.
-- `src/` contains utilities (e.g. dictionaries) imported by analysis scripts
+- [code/](code/) contains jupyter notebooks and python scripts
+- [data/](code/) contains raw and processed.
+- [src/](code/) contains utilities and tokens referenced by analysis scripts
 
 ----
 
