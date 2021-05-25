@@ -50,7 +50,7 @@ File | Description
 `05-scrape_to_db.py` <img width=300/> | Dumps scraped data from .json files to sqlite database.
 `06-clean_data.ipynb` <img width=300/> | Cleans data. You will need a US Census API key: sign up [here](https://api.census.gov/data/key_signup.html).
 `07-disease_categories.ipynb` <img width=300/> | Modifies CCSR data to create disease categories for ICD-10-CM codes.
-`08-Spark-JSL.ipynb` <img width=300/> | Executes named entity recognition and entity resolution using models from Spark NLP for Healthcare (John Snow Labs). Requires a [license or demo](https://www.johnsnowlabs.com/spark-nlp-health/). Recommend running on Google Colab.
+`08-Spark-JSL.ipynb` <img width=300/> | Executes named entity recognition and entity resolution using models from Spark NLP for Healthcare (John Snow Labs). Requires a [license or demo](https://www.johnsnowlabs.com/spark-nlp-health/). Recommend running on Google Colab. Place data in [data/disease_categorization](data/disease_categorization) when finished.
 `09-classification_evaluation.ipynb` <img width=600/> | Calculates classification performance metrics.
 
 
