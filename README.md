@@ -60,3 +60,4 @@ File | Description
 - Because campaigns are constantly being added to/removed from GoFundMe, variation in scraped samples is expected.
 - Adhere to best practices for web scraping (do not overwhelm servers, limit concurrent requests from a single IP address, consider a proxy, etc). 
 - Consult your institutional review board before collecting data with the methods described above.
+- `acs_variables.csv` is courtesy of [Silver et al](https://github.com/silverer/cancer-crowdfunding-explorer/blob/master/data/census/census_variables.csv)
