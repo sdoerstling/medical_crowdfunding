@@ -8,8 +8,8 @@ Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
 ## Overview of directories
 
 - [code/](code/) contains jupyter notebooks and python scripts
-- [data/](code/) contains raw and processed.
-- [src/](code/) contains utilities and tokens referenced by analysis scripts
+- [data/](data/) contains some data and directories for additional data collection described below
+- [src/](src/) contains utilities and tokens referenced by analysis scripts
 
 ----
 
