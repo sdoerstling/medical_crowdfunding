@@ -29,6 +29,13 @@ Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
 - Download Fasttext language identification model `lid.176.bin` [here](https://fasttext.cc/docs/en/language-identification.html)
 - Place `lid.176.bin` fasttext model in [data/fasttext_models](data/fasttext_models)
 
+### 4. HUD zip code to county crosswalk data
+- Navigate to the HUD website [here](https://www.huduser.gov/portal/datasets/usps_crosswalk.html)
+- At the bottom of the page, select the "Data" tab
+- For crosswalk type, select "ZIP-COUNTY"
+- For data year and quarter, select "4th Quarter 2020"
+- Place the file in [data/census](data/census)
+
 ----
 
 ## Scripts/notebooks
