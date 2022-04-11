@@ -1,6 +1,6 @@
 # Validation of a disease identification algorithm on medical crowdfunding campaigns
 
-This repository contains source code for Doerstling et al (2021) *Validation of a disease identification algorithm on medical crowdfunding campaigns*.
+This repository contains source code for Doerstling et al (2022) *Validation of a disease identification algorithm on medical crowdfunding campaigns*.
 
 Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
 
