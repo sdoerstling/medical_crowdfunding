@@ -49,9 +49,11 @@ File | Description
 `04-make_db.py` <img width=300/> | Creates sqlite databse.
 `05-scrape_to_db.py` <img width=300/> | Dumps scraped data from .json files to sqlite database.
 `06-clean_data.ipynb` <img width=300/> | Cleans data. You will need a US Census API key: sign up [here](https://api.census.gov/data/key_signup.html). Place your census key in `tokens.py` in [src/](src/).
+`06-PCA.R` <img width=300/> | Runs PCA to calculate neighborhood deprivation index. Code is courtesy of [Silver et al](https://github.com/silverer/cancer-crowdfunding-explorer/blob/master/data/census/census_variables.csv).
 `07-disease_categories.ipynb` <img width=300/> | Modifies CCSR data to create disease categories for ICD-10-CM codes.
 `08-Spark-JSL.ipynb` <img width=300/> | Executes named entity recognition and entity resolution using models from Spark NLP for Healthcare (John Snow Labs). Requires a [license or demo](https://www.johnsnowlabs.com/spark-nlp-health/). Recommend running on Google Colab. Place data in [data/disease_categorization](data/disease_categorization) when finished.
-`09-classification_evaluation.ipynb` <img width=600/> | Aggregates algorithm output data and calculates classification performance metrics.
+`09-cohens_kappa.ipynb` <img width=600/> | Calculates Cohen's kappa between coders for each disease category encountered in the reference set campaign descriptions.
+`10-evaluation_and_analysis.ipynb` <img width=600/> | Aggregates algorithm output data, calculates classification performance metrics, and reproducibly generates figures, tables, and appendices.
 
 
 ----
