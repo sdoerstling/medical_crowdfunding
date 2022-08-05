@@ -1,8 +1,14 @@
-# Validation of a disease identification algorithm on medical crowdfunding campaigns
+# A Disease Identification Algorithm for Medical Crowdfunding Campaigns: Validation Study
 
-This repository contains source code for Doerstling et al (2022) *Validation of a disease identification algorithm on medical crowdfunding campaigns*.
+This repository contains source code for Doerstling et al (2022) *A Disease Identification Algorithm for Medical Crowdfunding Campaigns: Validation Study*.
 
-Authors: Doerstling S, Akrobetu D, Engelhard MM, Chen F, Ubel PA
+Doerstling SS, Akrobetu D, Engelhard MM, Chen F, Ubel PA
+A Disease Identification Algorithm for Medical Crowdfunding Campaigns: Validation Study
+J Med Internet Res 2022;24(6):e32867
+
+- DOI: 10.2196/32867
+- PMID: 35727610
+- URL: https://www.jmir.org/2022/6/e32867
 
 ----
 ## Overview of directories
